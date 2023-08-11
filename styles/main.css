@@ -16,6 +16,10 @@ header {
   display: flex;
 }
 
+#brand img {
+  margin-right: 10px;
+}
+
 nav {
   margin-top: -40px;
   float: right;
