@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+        #portfolio-header {
+            padding: 20px;
+            background-color: black;
+        }
+
+        #portfolio-header a {
+            font-size: larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+        header {
+            background-color: lightblue;
+            padding: 10px;    /* all sides */
+            border: 2px solid black;    /* shorthand */
+        }
+        header img {
+            float: left;
+        }
+        #brandname {
+            color: red;
+            margin-top: -4px;
+            margin-left: 5px;
+            font-weight: bold;
+            font-size: 24pt;
+            float: left;
+        }
+        nav {
+            float: right;
+            margin-top: 2px;
+        }
+        .main-menu {
+            text-decoration: none;
+            padding: 10px;
+            color: lightgray;
+            background-color: blue;
+            display: inline-block;
+            border: 1px solid white;
+            border-radius: 8px;
+        }
+        .main-menu:hover {
+            color: white;
+            background-color: darkblue;
+        }
+        main {
+            padding: 10px 40px;    /* top-bottom left-right */
+        }
+        footer {
+            font-size: small;
+            text-align: center;
+            color: white;
+            background-color: gray;
+            padding: 10px 10px 10px 10px;   /* top right bottom left */
+            border-width: 1px;
+            border-style: dotted;
+            border-color: black;
+        }
+        a {
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div id="portfolio-header">
+        <a href="../index.html">&laquo; Back to My Portfolio</a>
+    </div>
+    <br>
+    <header>
+        <img src="logo.png" alt="Logo" width="40" height="40">
+        <div id="brandname">SITENAME</div>
+
+        <nav>
+            <a href="#" class="main-menu">Home</a>
+            <a href="#" class="main-menu">Products</a>
+            <a href="#" class="main-menu">About Us</a>
+        </nav>
+        <br clear="both">
+    </header>
+    <main>
+        <h1>CSS Basics</h1>
+
+        <img src="logo.png" alt="" width="128">
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque earum blanditiis quidem sed totam qui ratione aperiam nisi officia. Nostrum voluptates dolorum sit laboriosam enim ad architecto magni, amet beatae?</p>
+
+        <a href="http://google.com">Go to Google</a>
+    </main>
+    <footer>
+        &copy; 2023 Ramz
+    </footer>
+</body>
+</html>
